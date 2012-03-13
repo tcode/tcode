@@ -1,0 +1,44 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+<title>Chess-asylum.com</title>
+</head>
+<body>
+<h1>Welcome to my site for crazy chess</h1>
+<center>
+<input id="open" type="button" value="Opening" />
+<input id="games" type="button" value="Games" />
+<input id="end" type="button" value="Endgames" />
+</center>
+<script type="text/javascript">
+$(document).ready(function () {
+$('#open').click(function () {
+$('#content').load('openings/index.html');
+});
+});
+
+$(document).ready(function () {
+$('#games').click(function () {
+$('#content').load('games/index.html');
+});
+});
+
+$(document).ready(function () {
+$('#end').click(function () {
+$('#content').load('endgame/index.html');
+});
+});
+
+</script>
+<center>
+<div id="content">
+</div>
+</center>
+<div class="footer">
+<p>Okay this is driven by javascript, so you should really use a modern browser, I will try to
+keep up with the links down here, but I might now</p>
+
+</div>
+</body>
+</html>

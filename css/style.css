@@ -1,0 +1,38 @@
+html, body {
+    background: #2B60DE;
+    color: black;
+    height: 100%;
+    }
+
+
+.footer {
+    position:fixed;
+    bottom: 0px;
+    width: 100%;
+    background: black;
+    color: white;
+    
+}
+#content {
+    height: 800px;
+    position: absolute;
+    top: 180px;
+    left:5%;
+    right:5%;
+    background: white;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+}
+
+#nav {
+    background: white;
+    width: 310px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+}
+
+.hide {
+    display: none;
+}

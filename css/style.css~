@@ -1,0 +1,13 @@
+body {
+    background: grey;
+    }
+
+.footer {
+    position: absolute;
+    bottom: 15px;
+    height: 90px;
+    width: 100%;
+    background: black;
+    color: white;
+    
+}
