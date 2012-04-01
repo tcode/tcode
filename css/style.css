@@ -1,0 +1,32 @@
+body {
+    background: #2B60DE;
+    color: black;
+    }
+
+.footer {
+    position: absolute;
+    bottom: 15px;
+    height: 90px;
+    width: 100%;
+    background: black;
+    color: white;
+    
+}
+#content {
+    position: absolute;
+    top: 180px;
+    left:5%;
+    right:5%;
+    background: white;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+}
+
+#nav {
+    background: white;
+    width: 310px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+}
